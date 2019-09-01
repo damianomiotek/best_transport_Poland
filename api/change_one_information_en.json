@@ -1,0 +1,196 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "systemIntent": {
+        "intent": "actions.intent.OPTION",
+        "data": {
+          "@type": "type.googleapis.com/google.actions.v2.OptionValueSpec",
+          "listSelect": {
+            "items": [
+              {
+                "optionInfo": {
+                  "key": "Change username",
+                  "synonyms": [
+                    "Account name"
+                  ]
+                },
+                "title": "Username"
+              },
+              {
+                "optionInfo": {
+                  "key": "Change name"
+                },
+                "title": "Name"
+              },
+              {
+                "optionInfo": {
+                  "key": "Change surname"
+                },
+                "title": "Surname"
+              },
+              {
+                "optionInfo": {
+                  "key": "Change email"
+                },
+                "title": "Email"
+              },
+              {
+                "optionInfo": {
+                  "key": "Change phone number",
+                  "synonyms": [
+                    "Phone"
+                  ]
+                },
+                "title": "Phone number"
+              },
+              {
+                "optionInfo": {
+                  "key": "Change tax number",
+                  "synonyms": [
+                    "Tax account"
+                  ]
+                },
+                "title": "Tax number"
+              },
+              {
+                "optionInfo": {
+                  "key": "Change  place of residence",
+                  "synonyms": [
+                    "Home",
+                    "Place"
+                  ]
+                },
+                "title": "Place of residence"
+              },
+              {
+                "optionInfo": {
+                  "key": "Change street"
+                },
+                "title": "Street"
+              },
+              {
+                "optionInfo": {
+                  "key": "Change post code",
+                  "synonyms": [
+                    "Mailbox"
+                  ]
+                },
+                "title": "Post code"
+              },
+              {
+                "optionInfo": {
+                  "key": "Change post place",
+                  "synonyms": [
+                    "Post"
+                  ]
+                },
+                "title": "Post Place"
+              },
+              {
+                "optionInfo": {
+                  "key": "Change country"
+                },
+                "title": "Country"
+              },
+              {
+                "optionInfo": {
+                  "key": "Change company tax number",
+                  "synonyms": [
+                    "Tax number for your company"
+                  ]
+                },
+                "title": "Company tax number"
+              },
+              {
+                "optionInfo": {
+                  "key": "Change email for company",
+                  "synonyms": [
+                    "Email company"
+                  ]
+                },
+                "title": "Email for company"
+              },
+              {
+                "optionInfo": {
+                  "key": "Change company phone number",
+                  "synonyms": [
+                    "Phone number for your company"
+                  ]
+                },
+                "title": "Company phone number"
+              },
+              {
+                "optionInfo": {
+                  "key": "Change company name",
+                  "synonyms": [
+                    "Name of my Company"
+                  ]
+                },
+                "title": "Company name"
+              },
+              {
+                "optionInfo": {
+                  "key": "Change company street"
+                },
+                "title": "Company street"
+              },
+              {
+                "optionInfo": {
+                  "key": "Change company post code"
+                },
+                "title": "Company post code"
+              },
+              {
+                "optionInfo": {
+                  "key": "Change post city for company",
+                  "synonyms": [
+                    "Post city your company"
+                  ]
+                },
+                "title": "Post city for company"
+              },
+              {
+                "optionInfo": {
+                  "key": "Change company country",
+                  "synonyms": [
+                    "Country for compnay"
+                  ]
+                },
+                "title": "Company country"
+              }
+
+            ]
+          }
+        }
+      },
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Which information do you want to change?",
+              "displayText": "Which information do you want to change?"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "title": "Offers"
+          },
+          {
+            "title": "Orders"
+          },
+          {
+            "title": "Inquiries"
+          },
+          {
+            "title": "Account"
+          },
+          {
+            "title": "Others"
+          }
+        ]
+      }
+    }
+  }
+}

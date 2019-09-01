@@ -1,0 +1,35 @@
+{% extends 'main.html' %}
+{% load bootstrap %}
+{% block title %} Sign In {% endblock %}
+
+{% block body %}
+    <div class="card" style="width: 600px">
+      <div class="card-body">
+          <h5 class="card-title">Sign In</h5>
+        <form role="form" method="post">
+            {% csrf_token %}
+            {{form|bootstrap}}
+            <div style="
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                /* width: 7em; */
+            ">
+            <button type="submit" style="
+                    margin-bottom: 1em;
+                    width: 8em;
+                    margin: auto auto 1em auto;
+                " class="btn btn-primary">Sign in <i class="fas fa-sign-in-alt"></i></button>
+                <a href="{{sign_up_url}}">
+            Sign up
+          </a>
+                </div>
+
+        </form>
+          <br>
+
+      </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,209 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "systemIntent": {
+        "intent": "actions.intent.OPTION",
+        "data": {
+          "@type": "type.googleapis.com/google.actions.v2.OptionValueSpec",
+          "listSelect": {
+            "items": [
+              {
+                "optionInfo": {
+                  "key": "Nazwa użytkownika",
+                  "synonyms": [
+                    "Username",
+                    "Nazwa konta"
+                  ]
+                },
+                "title": "Nazwa użytkownika"
+              },
+              {
+                "optionInfo": {
+                  "key": "Imie"
+                },
+                "title": "Imie"
+              },
+              {
+                "optionInfo": {
+                  "key": "Nazwisko"
+                },
+                "title": "Nazwisko"
+              },
+              {
+                "optionInfo": {
+                  "key": "Email",
+                  "synonyms": [
+                    "Skrzynka pocztowa",
+                    "Poczta",
+                    "Mail"
+                  ]
+                },
+                "title": "Email"
+              },
+              {
+                "optionInfo": {
+                  "key": "Numer telefonu",
+                  "synonyms": [
+                    "Telefon",
+                    "Numer",
+                    "Komórka"
+                  ]
+                },
+                "title": "Numer telefonu"
+              },
+              {
+                "optionInfo": {
+                  "key": "Numer podatnika",
+                  "synonyms": [
+                    "NIP",
+                    "PESEL"
+                  ]
+                },
+                "title": "Numer podatnika"
+              },
+              {
+                "optionInfo": {
+                  "key": "Miejsce zamieszkania",
+                  "synonyms": [
+                    "Mieszkanie",
+                    "Miejscowość zamieszkania"
+                  ]
+                },
+                "title": "Miejsce zamieszkania"
+              },
+              {
+                "optionInfo": {
+                  "key": "Ulica"
+                },
+                "title": "Ulica"
+              },
+              {
+                "optionInfo": {
+                  "key": "Kod pocztowy"
+                },
+                "title": "Kod pocztowy"
+              },
+              {
+                "optionInfo": {
+                  "key": "Poczta",
+                  "synonyms": [
+                    "Miejscowość poczty"
+                  ]
+                },
+                "title": "Poczta"
+              },
+              {
+                "optionInfo": {
+                  "key": "Kraj",
+                  "synonyms": [
+                    "Państwo"
+                  ]
+                },
+                "title": "Kraj"
+              },
+              {
+                "optionInfo": {
+                  "key": "Nazwa firmy",
+                  "synonyms": [
+                    "Miejsce zameldowania firmy",
+                    "Miejscowość gdzie znajduje się firma"
+                  ]
+                },
+                "title": "Nazwa firmy"
+              },
+              {
+                "optionInfo": {
+                  "key": "Email firmy",
+                  "synonyms": [
+                    "Skrzynka pocztowa firmy",
+                    "Mail firmy",
+                    "Mail do firmy"
+                  ]
+                },
+                "title": "Email firmy"
+              },
+              {
+                "optionInfo": {
+                  "key": "Numer telefonu do firmy",
+                  "synonyms": [
+                    "Telefon do firmy",
+                    "Komórka firmy"
+                  ]
+                },
+                "title": "Numer telefonu do firmy"
+              },
+              {
+                "optionInfo": {
+                  "key": "Numer podatnika dla firmy",
+                  "synonyms": [
+                    "NIP firmy"
+                  ]
+                },
+                "title": "Numer podatnika dla firmy"
+              },
+              {
+                "optionInfo": {
+                  "key": "Ulica firmy"
+                },
+                "title": "Ulica firmy"
+              },
+              {
+                "optionInfo": {
+                  "key": "Kod pocztowy firmy"
+                },
+                "title": "Kod pocztowy firmy"
+              },
+              {
+                "optionInfo": {
+                  "key": "Poczta firmy",
+                  "synonyms": [
+                    "Miejscowość poczty firmy"
+                  ]
+                },
+                "title": "Poczta firmy"
+              },
+              {
+                "optionInfo": {
+                  "key": "Kraj firmy",
+                  "synonyms": [
+                    "Państwo firmy"
+                  ]
+                },
+                "title": "Kraj firmy"
+              }
+
+            ]
+          }
+        }
+      },
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Którą informację mam dla Ciebie wyświetlić?",
+              "displayText": "Którą informację chcesz wyświetlić?"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "title": "Oferty"
+          },
+          {
+            "title": "Zlecenia"
+          },
+          {
+            "title": "Zapytania"
+          },
+          {
+            "title": "Konto"
+          },
+          {
+            "title": "Inne"
+          }
+        ]
+      }
+    }
+  }
+}

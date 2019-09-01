@@ -1,0 +1,25 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "systemIntent": {
+        "intent": "actions.intent.OPTION",
+        "data": {
+          "@type": "type.googleapis.com/google.actions.v2.OptionValueSpec",
+          "carouselSelect": {
+          }
+        }
+      },
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "",
+              "displayText": ""
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "systemIntent": {
+        "intent": "actions.intent.OPTION",
+        "data": {
+          "@type": "type.googleapis.com/google.actions.v2.OptionValueSpec",
+          "listSelect": {
+            "title": ""
+          }
+        }
+      },
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Oto nasze aktualne oferty",
+              "displayText": "Oto nasze aktualne oferty"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+web: gunicorn BestTransportAPI.wsgi --log-file -

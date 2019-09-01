@@ -1,0 +1,196 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "systemIntent": {
+        "intent": "actions.intent.OPTION",
+        "data": {
+          "@type": "type.googleapis.com/google.actions.v2.OptionValueSpec",
+          "listSelect": {
+            "items": [
+              {
+                "optionInfo": {
+                  "key": "Username",
+                  "synonyms": [
+                    "Account name"
+                  ]
+                },
+                "title": "Username"
+              },
+              {
+                "optionInfo": {
+                  "key": "Name"
+                },
+                "title": "Name"
+              },
+              {
+                "optionInfo": {
+                  "key": "Surname"
+                },
+                "title": "Surname"
+              },
+              {
+                "optionInfo": {
+                  "key": "Email"
+                },
+                "title": "Email"
+              },
+              {
+                "optionInfo": {
+                  "key": "Phone number",
+                  "synonyms": [
+                    "Phone"
+                  ]
+                },
+                "title": "Phone number"
+              },
+              {
+                "optionInfo": {
+                  "key": "Tax number",
+                  "synonyms": [
+                    "Tax account"
+                  ]
+                },
+                "title": "Tax number"
+              },
+              {
+                "optionInfo": {
+                  "key": "Place of residence",
+                  "synonyms": [
+                    "Home",
+                    "Place"
+                  ]
+                },
+                "title": "Place of residence"
+              },
+              {
+                "optionInfo": {
+                  "key": "Street"
+                },
+                "title": "Street"
+              },
+              {
+                "optionInfo": {
+                  "key": "Post code",
+                  "synonyms": [
+                    "Mailbox"
+                  ]
+                },
+                "title": "Post code"
+              },
+              {
+                "optionInfo": {
+                  "key": "Post Place",
+                  "synonyms": [
+                    "Post"
+                  ]
+                },
+                "title": "Post Place"
+              },
+              {
+                "optionInfo": {
+                  "key": "Country"
+                },
+                "title": "Country"
+              },
+              {
+                "optionInfo": {
+                  "key": "Company name",
+                  "synonyms": [
+                    "Name of my Company"
+                  ]
+                },
+                "title": "Company name"
+              },
+              {
+                "optionInfo": {
+                  "key": "Email for company",
+                  "synonyms": [
+                    "Email company"
+                  ]
+                },
+                "title": "Email for company"
+              },
+              {
+                "optionInfo": {
+                  "key": "Company phone number",
+                  "synonyms": [
+                    "Phone number for your company"
+                  ]
+                },
+                "title": "Company phone number"
+              },
+              {
+                "optionInfo": {
+                  "key": "Company tax number",
+                  "synonyms": [
+                    "Tax number for your company"
+                  ]
+                },
+                "title": "Company tax number"
+              },
+              {
+                "optionInfo": {
+                  "key": "Company street"
+                },
+                "title": "Company street"
+              },
+              {
+                "optionInfo": {
+                  "key": "Company post code"
+                },
+                "title": "Company post code"
+              },
+              {
+                "optionInfo": {
+                  "key": "Post city for company",
+                  "synonyms": [
+                    "Post city your company"
+                  ]
+                },
+                "title": "Post city for company"
+              },
+              {
+                "optionInfo": {
+                  "key": "Company country",
+                  "synonyms": [
+                    "Country for compnay"
+                  ]
+                },
+                "title": "Company country"
+              }
+
+            ]
+          }
+        }
+      },
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Which information do you want to display?",
+              "displayText": "Which information do you want to display?"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "title": "Offers"
+          },
+          {
+            "title": "Orders"
+          },
+          {
+            "title": "Inquiries"
+          },
+          {
+            "title": "Account"
+          },
+          {
+            "title": "Others"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+from django.contrib import admin
+from .models import *
+
+
+admin.site.register(Cargo)
+admin.site.register(SimpleAddress)
+admin.site.register(ExtendAddress)
+admin.site.register(BestTransData)
+admin.site.register(Company)
+admin.site.register(Profile)
+admin.site.register(Driver)
+admin.site.register(Vehicle)
+admin.site.register(Offer)
+admin.site.register(OffersVehicles)
+admin.site.register(Order)
+admin.site.register(OrdersOffers)
+admin.site.register(OrdersLoadingPlaces)
+admin.site.register(OrdersDestinationPlaces)
+admin.site.register(OrdersDrivers)
+admin.site.register(OrdersVehicles)
+admin.site.register(ResponseToCustomer)
+admin.site.register(ResponsesProfiles)
+admin.site.register(Inquiry)
+admin.site.register(InquiriesOffers)
+admin.site.register(InquiriesOrders)
+admin.site.register(InquiriesResponses)

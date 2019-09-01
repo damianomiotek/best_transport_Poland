@@ -1,0 +1,209 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "systemIntent": {
+        "intent": "actions.intent.OPTION",
+        "data": {
+          "@type": "type.googleapis.com/google.actions.v2.OptionValueSpec",
+          "listSelect": {
+            "items": [
+              {
+                "optionInfo": {
+                  "key": "Zmien nazwa użytkownika",
+                  "synonyms": [
+                    "Username",
+                    "Nazwa konta"
+                  ]
+                },
+                "title": "Nazwa użytkownika"
+              },
+              {
+                "optionInfo": {
+                  "key": "Zmien imie"
+                },
+                "title": "Imie"
+              },
+              {
+                "optionInfo": {
+                  "key": "Zmien nazwisko"
+                },
+                "title": "Nazwisko"
+              },
+              {
+                "optionInfo": {
+                  "key": "Zmien email",
+                  "synonyms": [
+                    "Skrzynka pocztowa",
+                    "Poczta",
+                    "Mail"
+                  ]
+                },
+                "title": "Email"
+              },
+              {
+                "optionInfo": {
+                  "key": "Zmien numer telefonu",
+                  "synonyms": [
+                    "Telefon",
+                    "Numer",
+                    "Komórka"
+                  ]
+                },
+                "title": "Numer telefonu"
+              },
+              {
+                "optionInfo": {
+                  "key": "Zmien numer podatnika",
+                  "synonyms": [
+                    "NIP",
+                    "PESEL"
+                  ]
+                },
+                "title": "Numer podatnika"
+              },
+              {
+                "optionInfo": {
+                  "key": "Zmien miejsce zamieszkania",
+                  "synonyms": [
+                    "Mieszkanie",
+                    "Miejscowość zamieszkania"
+                  ]
+                },
+                "title": "Miejsce zamieszkania"
+              },
+              {
+                "optionInfo": {
+                  "key": "Zmien ulica"
+                },
+                "title": "Ulica"
+              },
+              {
+                "optionInfo": {
+                  "key": "Zmien kod pocztowy"
+                },
+                "title": "Kod pocztowy"
+              },
+              {
+                "optionInfo": {
+                  "key": "Zmien poczta",
+                  "synonyms": [
+                    "Miejscowość poczty"
+                  ]
+                },
+                "title": "Poczta"
+              },
+              {
+                "optionInfo": {
+                  "key": "Zmien kraj",
+                  "synonyms": [
+                    "Państwo"
+                  ]
+                },
+                "title": "Kraj"
+              },
+              {
+                "optionInfo": {
+                  "key": "Zmien numer podatnika dla firmy",
+                  "synonyms": [
+                    "NIP firmy"
+                  ]
+                },
+                "title": "Numer podatnika dla firmy"
+              },
+              {
+                "optionInfo": {
+                  "key": "Zmien email firmy",
+                  "synonyms": [
+                    "Skrzynka pocztowa firmy",
+                    "Mail firmy",
+                    "Mail do firmy"
+                  ]
+                },
+                "title": "Email firmy"
+              },
+              {
+                "optionInfo": {
+                  "key": "Zmien numer telefonu do firmy",
+                  "synonyms": [
+                    "Telefon do firmy",
+                    "Komórka firmy"
+                  ]
+                },
+                "title": "Numer telefonu do firmy"
+              },
+              {
+                "optionInfo": {
+                  "key": "Zmien nazwa firmy",
+                  "synonyms": [
+                    "Miejsce zameldowania firmy",
+                    "Miejscowość gdzie znajduje się firma"
+                  ]
+                },
+                "title": "Nazwa firmy"
+              },
+              {
+                "optionInfo": {
+                  "key": "Zmien ulica firmy"
+                },
+                "title": "Ulica firmy"
+              },
+              {
+                "optionInfo": {
+                  "key": "Zmien kod pocztowy firmy"
+                },
+                "title": "Kod pocztowy firmy"
+              },
+              {
+                "optionInfo": {
+                  "key": "Zmien poczta firmy",
+                  "synonyms": [
+                    "Miejscowość poczty firmy"
+                  ]
+                },
+                "title": "Poczta firmy"
+              },
+              {
+                "optionInfo": {
+                  "key": "Zmien kraj firmy",
+                  "synonyms": [
+                    "Państwo firmy"
+                  ]
+                },
+                "title": "Kraj firmy"
+              }
+
+            ]
+          }
+        }
+      },
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Którą informację chcesz zmienić?",
+              "displayText": "Którą informację chcesz zmienić?"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "title": "Oferty"
+          },
+          {
+            "title": "Zlecenia"
+          },
+          {
+            "title": "Zapytania"
+          },
+          {
+            "title": "Konto"
+          },
+          {
+            "title": "Inne"
+          }
+        ]
+      }
+    }
+  }
+}
